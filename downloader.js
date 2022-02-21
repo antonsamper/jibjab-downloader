@@ -1,9 +1,8 @@
 //1. open new tab
 var w = window.open(window.location.href, '', 'width=640,height=405');
 
-//2. remove watermark
-//Line 6793
-//e.watermark = ""
+//2. remove watermark (Line 6793)
+e.watermark = ""
 
 //3. start recording
 async function recordScreen() {
