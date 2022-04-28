@@ -53,7 +53,7 @@ canvas.style.width = 'auto';
 document.body.style.overflow = 'hidden';
 document.querySelector('#large-play-button').click();
 var checkModal = setInterval(async () => {
-    const modal = document.querySelector('[role=presentation]');
+    const modal = document.querySelector('div[role=presentation]');
     if (modal) {
         console.log('Found modal');
         clearInterval(checkModal);
